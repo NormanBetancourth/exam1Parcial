@@ -30,7 +30,7 @@ public:
     Sala *getSala() const;
 
     Fecha *getFecha() const;
-
+    void recalcularPrecio();
     Funcion(Pelicula* p= nullptr, Sala* s= nullptr,Fecha* f= nullptr,int asientos=0 );
     ~Funcion();
     string toString();
@@ -39,6 +39,13 @@ public:
     bool busquedaFecha(int, int,int);
     string verAsientos();
     float recaudado();
+    bool espacio(int x);
+    void reservarAsientos(int x);
+    void guardar(ofstream& c);
+    static Funcion* leer(ifstream&);
+
+
+
 };
 
 

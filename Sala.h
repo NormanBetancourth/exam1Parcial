@@ -37,6 +37,8 @@ public:
 
     string tostringCompleto();
     string tostringSilla();
+    void reservar(int x);
+    bool espacio(int x);
 
 };
 

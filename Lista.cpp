@@ -184,7 +184,7 @@ template<class T>
 void Lista<T>::guardar() {
     aux = raiz;
     ofstream c;
-    c.open("Clientes.txt", ios::out);
+    c.open("Arcivos.txt", ios::out);
 
     while (aux != NULL) {
         aux->guardar(c);
@@ -197,7 +197,7 @@ void Lista<T>::guardar() {
 template<class T>
 Lista<T> *Lista<T>::Leer() {
     ifstream c;
-    c.open("Clientes.txt", ios::in);
+    c.open("Arcivos.txt", ios::in);
     Lista<T>* L = new Lista<T>();
     T* C = NULL;
     while (c.good())

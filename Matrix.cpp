@@ -1,5 +1,5 @@
 #include "Matrix.h"
-const int F = 10, C = 6;
+const int F = 6, C = 10;
 
 Matrix::Matrix(){
 
@@ -72,4 +72,44 @@ void Matrix::setId(const string &id) {
 
 const string &Matrix::getId() const {
     return id;
+}
+
+void Matrix::reservarAsiento(int x) {
+
+    for (int i = 1; i < F-1; i++)
+    {
+        for (int j = 1; j < C-1; j++)
+        {
+
+            if (asiento[i][j]->getEstado()=="Disponible"){
+                asiento[i][j]->setEstado("Vendido");
+                asiento[i-1][j]->setEstado("Bloqueado");
+                asiento[i+1][j]->setEstado("Bloqueado");
+                asiento[i][j+1]->setEstado("Bloqueado");
+                asiento[i][j-1]->setEstado("Bloqueado");
+                return;
+            }
+
+        }
+    }
+
+}
+
+bool Matrix::espacio(int cant) {
+    int counter=0;
+    for (int i = 0; i < F; i++)
+    {
+        for (int j = 0; j < C; j++)
+        {
+
+            if (asiento[i][j]->getEstado()=="Disponible"){
+                counter++;
+            }
+
+        }
+    }
+    if (counter > cant){
+        return true;
+    } else
+        return false;
 }

@@ -13,9 +13,10 @@ public:
 	~Matrix();
 	void inicializarIdentificacion();
 	void inicializarEstado();
+	void reservarAsiento(int x);
+	bool espacio(int cant);
 
 	
-	void reservarstringid();
 	Asiento* gethabitacion(int,int);
 
 	

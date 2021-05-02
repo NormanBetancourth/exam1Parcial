@@ -70,3 +70,11 @@ string Sala::tostringCompleto() {
 string Sala::tostringSilla() {
     return M->tostring();
 }
+
+void Sala::reservar(int x) {
+    getM()->reservarAsiento(x);
+}
+
+bool Sala::espacio(int x) {
+    return getM()->espacio(x);
+}

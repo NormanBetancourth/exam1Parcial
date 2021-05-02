@@ -24,6 +24,9 @@ void Control::setLista(Lista<Funcion> *lista) {
 
 
 void Control::Menu() {
+    //if (Lista<Funcion>::Leer()->estaVacia()== false){
+      //  cout<<Lista<Funcion>::Leer()->toString();
+    //}
     int option;
     cout << "-----------Menu General----------\n\n";
     cout << "\t1. Menu Mantenimiento\n";
@@ -161,11 +164,12 @@ void Control::opcion_1_3() {
         cin>>annio;
         Fecha* f= new Fecha(dia,mes,annio);
         Funcion* F= new Funcion(P,s,f,0);
+        F->recalcularPrecio();
         lista->agregarFinal(F);
         cout<<lista->toString();
 }
 
-void Control::opcion_2_1() {//TODO test
+void Control::opcion_2_1() {
     cout<<"Funciones en una Fecha"<<endl;
     int dia, mes ,anio;
     cout<<"ingrese el dia que quiere ver"<<endl;
@@ -181,7 +185,7 @@ void Control::opcion_2_1() {//TODO test
     }
 }
 
-void Control::opcion_2_2() {//todo test
+void Control::opcion_2_2() {
     if (lista->estaVacia()== false){
         cout<<"Asientos de una Funcion"<<endl;
         cout<<"Ingrese el id de la Sala de la fucnion"<<endl;
@@ -194,7 +198,7 @@ void Control::opcion_2_2() {//todo test
 
 }
 
-void Control::opcion_2_3() {//todo test
+void Control::opcion_2_3() {
     if (lista->estaVacia()== false){
         cout<<"Sellecionar Funcion"<<endl;
         cout<<lista->toString();
@@ -207,25 +211,23 @@ void Control::opcion_2_3() {//todo test
             cout<<"Cuantos voletos desea comprar?"<<endl;
             int cant=0;
             cin>>cant;
-            float subtot=0;
-            float total=0;
-            float costoVoleto=lista->acceso(id)->getPeli()->getPrecio();
-            if (lista->acceso(id)->getSala()->getTipo() == "3D"){
-                subtot = subtot + subtot*0.2;
+            if (lista->acceso(id)->espacio(cant)){
+                float total=0;
+                float subtot=lista->acceso(id)->getPeli()->getPrecio();
 
-            }
-            if (lista->acceso(id)->getSala()->getTipo() == "IMAX3D"){
-                subtot = subtot + subtot*0.5;
-            }
-            if (lista->acceso(id)->getSala()->getTipo() == "Aire"){
-                subtot = subtot + subtot*0.1;
-            }
-            lista->acceso(id)->setAsientosVendidos(lista->acceso(id)->getAsientosVendidos()+cant);
-            total = cant * subtot;
+                lista->acceso(id)->setAsientosVendidos(lista->acceso(id)->getAsientosVendidos()+cant);
+                total = cant * subtot;
+                lista->acceso(id)->reservarAsientos(cant);
+                cout<<"Usted ha comprado "<<cant<<"voletos"<<endl;
+                cout<<"El total al pagar es "<<total<<endl;
+                cout<<"Su funcion es"<<lista->acceso(id)->toString()<<endl;
+                for (int i = 0; i < cant; ++i) {
+                    lista->acceso(id)->reservarAsientos(cant);
+                }
 
-            cout<<"Usted ha comprado "<<cant<<"voletos"<<endl;
-            cout<<"El total al pagar es "<<total<<endl;
-            cout<<"Su funcion es"<<lista->acceso(id)->toString()<<endl;
+            } else{
+                cout<<"no hay espacio disponible";
+            }
 
 
         } else{
@@ -236,7 +238,7 @@ void Control::opcion_2_3() {//todo test
     }
 }
 
-void Control::opcion_2_4() {//todo test
+void Control::opcion_2_4() {
     cout<<"Asientos de la cartelera: "<<endl;
     cout<< lista->toStringCompleto();
 }
@@ -349,8 +351,9 @@ void Control::subMantenimiento() {
             opcion_1_3();
             break;
         case 4:
+            lista->guardar();
             cout<<"Saliendo..."<<endl;
-           //exit(4);
+            //exit(4);
            Menu();
             break;
         default:
@@ -395,6 +398,7 @@ void Control::subVentas() {
             opcion_2_4();
             break;
         case 5:
+            lista->guardar();
             cout<<"Saliendo..."<<endl;
             //exit(5);
             Menu();
@@ -441,6 +445,7 @@ void Control::subAdmin() {
                 opcion_3_4();
                 break;
             case 5:
+                lista->guardar();
                 cout<<"Saliendo..."<<endl;
                 Menu();
                 break;
