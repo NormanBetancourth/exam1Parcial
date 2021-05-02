@@ -1,0 +1,3 @@
+C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/CMakeFiles/Exam_IParcial.dir
+C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Exam_IParcial"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exam_IParcial">
+				<Option output="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Exam_IParcial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exam_IParcial"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exam_IParcial/fast">
+				<Option output="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Exam_IParcial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exam_IParcial/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Asiento.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Asiento.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Cartelera.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Cartelera.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Control.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Control.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Fecha.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Fecha.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lente3D.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lente3D.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Pelicula.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Pelicula.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Sala.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Sala.h">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/main.cpp">
+			<Option target="Exam_IParcial"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
