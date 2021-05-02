@@ -130,24 +130,6 @@
 		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h">
 			<Option target="Exam_IParcial"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.cpp">
-			<Option target="Exam_IParcial"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.h">
-			<Option target="Exam_IParcial"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.cpp">
-			<Option target="Exam_IParcial"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.h">
-			<Option target="Exam_IParcial"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.cpp">
-			<Option target="Exam_IParcial"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.h">
-			<Option target="Exam_IParcial"/>
-		</Unit>
 		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp">
 			<Option target="Exam_IParcial"/>
 		</Unit>

@@ -174,7 +174,7 @@ T *Lista<T>::acceso(string x) {
     }
     else {
         if (busqueda(x) != false) {
-            return aux->getPersona();
+            return aux->getInfo();
         }
         return nullptr;
     }
@@ -211,4 +211,41 @@ Lista<T> *Lista<T>::Leer() {
     }
     c.close();
     return L;
+}
+
+template<class T>
+Lista<T>* Lista<T>::buscarFecha(int dia,int  mes, int anio) {
+    aux = raiz;
+    Lista<T>* L= new Lista<T>();
+
+    while (aux != nullptr) {
+        if (aux->getInfo()->busquedaFecha(dia,mes,anio)){
+            L->agregarIni(aux->getInfo());
+        }
+        aux= aux->getSig();
+    }
+
+    return L;
+}
+
+template<class T>
+string Lista<T>::toStringCompleto() {
+    aux = raiz;
+    stringstream s;
+    while (aux != nullptr) {
+        s << aux->getInfo()->toStringCompleto() << endl;
+        aux= aux->getSig();
+    }
+    return s.str();
+}
+
+template<class T>
+float Lista<T>::sumatoria() {
+    aux = raiz;
+    float s;
+    while (aux != nullptr) {
+        s = aux->recaudado();
+        aux= aux->getSig();
+    }
+    return s;
 }

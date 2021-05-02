@@ -23,6 +23,7 @@ public:
     bool Buscado(string x);
     string datoOrdenar();
     void guardar(ofstream&);
+    float recaudado();
 
 };
 

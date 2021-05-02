@@ -36,6 +36,7 @@ public:
     string tostring();
 
     string tostringCompleto();
+    string tostringSilla();
 
 };
 

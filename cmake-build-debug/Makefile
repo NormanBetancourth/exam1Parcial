@@ -358,87 +358,6 @@ Matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
 
-MenuAdmin.obj: MenuAdmin.cpp.obj
-
-.PHONY : MenuAdmin.obj
-
-# target to build an object file
-MenuAdmin.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj
-.PHONY : MenuAdmin.cpp.obj
-
-MenuAdmin.i: MenuAdmin.cpp.i
-
-.PHONY : MenuAdmin.i
-
-# target to preprocess a source file
-MenuAdmin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.i
-.PHONY : MenuAdmin.cpp.i
-
-MenuAdmin.s: MenuAdmin.cpp.s
-
-.PHONY : MenuAdmin.s
-
-# target to generate assembly for a file
-MenuAdmin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.s
-.PHONY : MenuAdmin.cpp.s
-
-MenuMantenimiento.obj: MenuMantenimiento.cpp.obj
-
-.PHONY : MenuMantenimiento.obj
-
-# target to build an object file
-MenuMantenimiento.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj
-.PHONY : MenuMantenimiento.cpp.obj
-
-MenuMantenimiento.i: MenuMantenimiento.cpp.i
-
-.PHONY : MenuMantenimiento.i
-
-# target to preprocess a source file
-MenuMantenimiento.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.i
-.PHONY : MenuMantenimiento.cpp.i
-
-MenuMantenimiento.s: MenuMantenimiento.cpp.s
-
-.PHONY : MenuMantenimiento.s
-
-# target to generate assembly for a file
-MenuMantenimiento.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.s
-.PHONY : MenuMantenimiento.cpp.s
-
-MenuVentas.obj: MenuVentas.cpp.obj
-
-.PHONY : MenuVentas.obj
-
-# target to build an object file
-MenuVentas.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj
-.PHONY : MenuVentas.cpp.obj
-
-MenuVentas.i: MenuVentas.cpp.i
-
-.PHONY : MenuVentas.i
-
-# target to preprocess a source file
-MenuVentas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.i
-.PHONY : MenuVentas.cpp.i
-
-MenuVentas.s: MenuVentas.cpp.s
-
-.PHONY : MenuVentas.s
-
-# target to generate assembly for a file
-MenuVentas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam_IParcial.dir\build.make CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.s
-.PHONY : MenuVentas.cpp.s
-
 Nodo.obj: Nodo.cpp.obj
 
 .PHONY : Nodo.obj
@@ -580,15 +499,6 @@ help:
 	@echo ... Matrix.obj
 	@echo ... Matrix.i
 	@echo ... Matrix.s
-	@echo ... MenuAdmin.obj
-	@echo ... MenuAdmin.i
-	@echo ... MenuAdmin.s
-	@echo ... MenuMantenimiento.obj
-	@echo ... MenuMantenimiento.i
-	@echo ... MenuMantenimiento.s
-	@echo ... MenuVentas.obj
-	@echo ... MenuVentas.i
-	@echo ... MenuVentas.s
 	@echo ... Nodo.obj
 	@echo ... Nodo.i
 	@echo ... Nodo.s

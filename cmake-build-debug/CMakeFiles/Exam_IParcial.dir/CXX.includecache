@@ -19,12 +19,10 @@ Control.h
 C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Control.h
 
 C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Control.h
-MenuMantenimiento.h
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.h
-MenuAdmin.h
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.h
-MenuVentas.h
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.h
+Lista.cpp
+C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
+Funcion.h
+C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h
 
 C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Fecha.h
 iostream
@@ -62,24 +60,6 @@ time.h
 Asiento.h
 C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Asiento.h
 
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.h
-Lista.cpp
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
-Funcion.h
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h
-
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.h
-Funcion.h
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h
-Lista.cpp
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
-
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.h
-Lista.cpp
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
-Funcion.h
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h
-
 C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp
 Nodo.h
 C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h
@@ -107,10 +87,4 @@ fstream
 -
 Matrix.h
 C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h
-
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/main.cpp
-iostream
--
-Control.h
-C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Control.h
 

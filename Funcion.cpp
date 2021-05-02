@@ -22,6 +22,7 @@ Funcion::Funcion(Pelicula *p, Sala *s, Fecha *f, int asientos) {
 string Funcion::toString() {
     stringstream s;
     s<<"Funcion"<<endl;
+    s<<"Asientos vendidos: "<<getAsientosVendidos()<<endl;
     s<<peli->toString()<<endl;
     s<<sala->tostring()<<endl;
     return s.str();
@@ -57,4 +58,30 @@ void Funcion::setSala(Sala *sala) {
 
 void Funcion::setFecha(Fecha *fecha) {
     Funcion::fecha = fecha;
+}
+
+bool Funcion::Buscado(string x) {
+    if (x==sala->getId()){
+        return true;
+    }
+    return false;
+}
+
+bool Funcion::busquedaFecha(int d, int m, int a) {
+    if (d== fecha->getDia() and m== fecha->getMes()and a== fecha->getAnnio() ){
+        return true;
+    }
+
+}
+
+string Funcion::verAsientos() {
+    return sala->tostringSilla();
+}
+
+string Funcion::toStringCompleto() {
+    return getSala()->tostringCompleto();
+}
+
+float Funcion::recaudado() {
+    return asientosVendidos * peli->getPrecio();
 }

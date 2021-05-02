@@ -6,15 +6,12 @@
 
 Control::Control() {
     lista =new Lista<Funcion>();
-    mAdmin = new MenuAdmin(lista);
-    mVentas = new MenuVentas(lista);
+
 }
 
 Control::~Control() {
     delete lista;
-    delete mAdmin;
-    delete mMant;
-    delete mVentas;
+
 }
 
 Lista<Funcion> *Control::getLista() const {
@@ -25,6 +22,7 @@ void Control::setLista(Lista<Funcion> *lista) {
     Control::lista = lista;
 }
 
+
 void Control::Menu() {
     int option;
     cout << "-----------Menu General----------\n\n";
@@ -34,16 +32,10 @@ void Control::Menu() {
     cout << "\t4. Exit\n";
     cout << "\n\tEnter your option: "; cin >> option;
 
-    while(cin.fail()){
-        cout << "-----------Menu General----------\n\n";
-        cout << "\t1. Menu Mantenimiento\n";
-        cout << "\t2. Menu Ventas\n";
-        cout << "\t3. Menu Administrador\n";
-        cout << "\t4. Exit\n";
-        cout << "\n\tEnter your option: "; cin >> option;
-    }
 
-    while (option!=4){
+    int bam= 1;
+
+    while (bam==1){
         switch(option){
             case 1:
                 subMantenimiento();
@@ -55,8 +47,9 @@ void Control::Menu() {
                 subAdmin();
                 break;
             case 4:
+                bam=0;
+                exit(0);
                 cout<<"Saliendo..."<<endl;
-                option = 4;
                 break;
             default:
                 cout<<"opcion incorrecta"<<endl;
@@ -66,29 +59,6 @@ void Control::Menu() {
 
 }
 
-MenuMantenimiento *Control::getMMant() const {
-    return mMant;
-}
-
-MenuAdmin *Control::getMAdmin() const {
-    return mAdmin;
-}
-
-MenuVentas *Control::getMVentas() const {
-    return mVentas;
-}
-
-void Control::setMMant(MenuMantenimiento *mMant) {
-    Control::mMant = mMant;
-}
-
-void Control::setMAdmin(MenuAdmin *mAdmin) {
-    Control::mAdmin = mAdmin;
-}
-
-void Control::setMVentas(MenuVentas *mVentas) {
-    Control::mVentas = mVentas;
-}
 
 
 void Control::opcion_1_1() {
@@ -151,32 +121,33 @@ void Control::opcion_1_2() {
 void Control::opcion_1_3() {
 
     cout<<"Creacion de una nueva Funcion\n\t";
-    string x;
-    cin>>x;
-    if (lista->busqueda(x)== false){
+
 
         //crear peli
         float precio;
         string id;
         string nombre;
         cout<<"Ingrese el id de la pelicula\n\t";
-        getline(cin,id);
+        cin>>id;
         cout<<"Ingrese el nombre de la Pelicula\n\t";
+        cin.get();
         getline(cin,nombre);
         cout<<"Ingrese el costo del voleto\n\t";
         cin>>precio;
+
         Pelicula *P=new Pelicula(id,nombre, precio);
         //crear sala
         string tipo;
         string idsala;
         string nombresala;
         Matrix* M=new Matrix();
-        cout<<"Ingrese el tipo de sala(normal, 3D, IMAX 3D, Aire)\n\t";
-        getline(cin,tipo);
-        cout<<"Ingrese el nombre de la nueva sala\n\t";
-        getline(cin,nombre);
         cout<<"Ingrese el id de la nueva sala\n\t";
-        getline(cin,id);
+        cin>>idsala;
+        cout<<"Ingrese el tipo de sala(normal, 3D, IMAX3D, Aire)\n\t";
+        cin>>tipo;
+        cin.get();
+        cout<<"Ingrese el nombre de la nueva sala\n\t";
+        getline(cin,nombresala);
         Sala* s=new Sala(tipo,idsala,nombresala, M);
         //crear fecha
         int dia;
@@ -191,12 +162,151 @@ void Control::opcion_1_3() {
         Fecha* f= new Fecha(dia,mes,annio);
         Funcion* F= new Funcion(P,s,f,0);
         lista->agregarFinal(F);
+        cout<<lista->toString();
+}
 
-
+void Control::opcion_2_1() {//TODO test
+    cout<<"Funciones en una Fecha"<<endl;
+    int dia, mes ,anio;
+    cout<<"ingrese el dia que quiere ver"<<endl;
+    cin>>dia;
+    cout<<"ingrese el mes que quiere ver"<<endl;
+    cin>>mes;
+    cout<<"ingrese el annio que quiere ver"<<endl;
+    cin>>anio;
+    if (lista->buscarFecha(dia,mes,anio)->estaVacia()== false){
+        cout<<lista->buscarFecha(dia,mes,anio)->toString();
     } else{
-        cout<<"Ya existe una funcion con ese id\n\t";
+        cout<<"No hayy ninguna funcion para ese dia"<<endl;
     }
 }
+
+void Control::opcion_2_2() {//todo test
+    if (lista->estaVacia()== false){
+        cout<<"Asientos de una Funcion"<<endl;
+        cout<<"Ingrese el id de la Sala de la fucnion"<<endl;
+        string id;
+        cin>>id;
+        cout<<lista->acceso(id)->verAsientos();
+    } else{
+        cout<<"NO hay funciones disponibles"<<endl;
+    }
+
+}
+
+void Control::opcion_2_3() {//todo test
+    if (lista->estaVacia()== false){
+        cout<<"Sellecionar Funcion"<<endl;
+        cout<<lista->toString();
+        cout<<"Ingrese el id de la funcion"<<endl;
+        string id;
+        cin>>id;
+        if (lista->acceso(id)!= nullptr){
+            cout<<"Sun funcion es:"<<endl<<endl;
+            cout<<lista->acceso(id)->toStringCompleto();
+            cout<<"Cuantos voletos desea comprar?"<<endl;
+            int cant=0;
+            cin>>cant;
+            float subtot=0;
+            float total=0;
+            float costoVoleto=lista->acceso(id)->getPeli()->getPrecio();
+            if (lista->acceso(id)->getSala()->getTipo() == "3D"){
+                subtot = subtot + subtot*0.2;
+
+            }
+            if (lista->acceso(id)->getSala()->getTipo() == "IMAX3D"){
+                subtot = subtot + subtot*0.5;
+            }
+            if (lista->acceso(id)->getSala()->getTipo() == "Aire"){
+                subtot = subtot + subtot*0.1;
+            }
+            lista->acceso(id)->setAsientosVendidos(lista->acceso(id)->getAsientosVendidos()+cant);
+            total = cant * subtot;
+
+            cout<<"Usted ha comprado "<<cant<<"voletos"<<endl;
+            cout<<"El total al pagar es "<<total<<endl;
+            cout<<"Su funcion es"<<lista->acceso(id)->toString()<<endl;
+
+
+        } else{
+            cout<<"No hay ninguna funcion con ese id"<<endl;
+        }
+    } else{
+        cout<<"NO hay funciones disponibles"<<endl;
+    }
+}
+
+void Control::opcion_2_4() {//todo test
+    cout<<"Asientos de la cartelera: "<<endl;
+    cout<< lista->toStringCompleto();
+}
+
+void Control::opcion_3_1() {
+    cout<<"NO implementado"<<endl;
+}
+
+void Control::opcion_3_2() {
+    if (lista->estaVacia()== false){
+        cout<<"Ver la recaudacion de una funcion"<<endl;
+        cout<<lista->toString();
+        cout<<"Cual funcion desea ver?"<<endl;
+        string id;
+        cin>>id;
+        if (lista->acceso(id)!= nullptr){
+            float total=0;
+            total=lista->acceso(id)->getAsientosVendidos()* lista->acceso(id)->getPeli()->getPrecio();
+            cout<<"El total generado en esa funcion fue: "<<total<<endl;
+
+        } else{
+            cout<<"NO existe funcion con tal id"<<endl;
+        }
+
+    }
+    else{
+        cout<<"NO hay funciones disponibles"<<endl;
+
+    }
+
+}
+
+void Control::opcion_3_3() {
+
+    if (lista->estaVacia()== false){
+        cout<<"Ver la recaudacion en una fecha"<<endl;
+        cout<<lista->toString();
+        cout<<"Cual fecha desea ver?"<<endl;
+        int dia, mes, annio;
+        cout<<"Dia"<<endl;
+        cin>>dia;
+        cout<<"Mes"<<endl;
+        cin>>mes;
+        cout<<"Annio"<<endl;
+        cin>>annio;
+        cout<<"el total recaudado "<<"("<<dia<<"/"<<mes<<"/"<<annio<<")"<<" es: "<<lista->buscarFecha(dia,mes,annio)->sumatoria();
+        if (lista->buscarFecha(dia,mes,annio)->estaVacia()== false){
+            cout<<"las funciones fueron: "<<endl;
+            cout<<lista->buscarFecha(dia,mes,annio)->toString();
+        }
+
+
+
+    }
+    else{
+        cout<<"NO hay funciones disponibles"<<endl;
+
+    }
+
+
+}
+
+void Control::opcion_3_4() {
+    cout<<"TODO"<<endl;
+}
+
+
+
+
+
 
 
 
@@ -240,7 +350,8 @@ void Control::subMantenimiento() {
             break;
         case 4:
             cout<<"Saliendo..."<<endl;
-            option = 4;
+           //exit(4);
+           Menu();
             break;
         default:
             cout<<"opcion incorrecta"<<endl;
@@ -254,9 +365,9 @@ void Control::subVentas() {
     int option;
     cout << "-----------Menu Ventas----------\n\n";
     cout << "\t1. Mostrar Las fucniones\n";//en una fecha
-    cout << "\t2. Mostrar asientos\n";
+    cout << "\t2. Mostrar asientos de una funcion\n";
     cout << "\t3. Seleccionar una funcion\n";
-    cout << "\t4. Venta de Asiento<s>\n";
+    cout << "\t4. Asientos disponibles en una funcion\n";
     cout << "\t5. Volver al menu Principal\n";
     cout << "\n\tEnter your option: "; cin >> option;
 
@@ -285,6 +396,7 @@ void Control::subVentas() {
             break;
         case 5:
             cout<<"Saliendo..."<<endl;
+            //exit(5);
             Menu();
             break;
         default:
@@ -339,9 +451,4 @@ void Control::subAdmin() {
 
 
 }
-
-
-
-
-
 

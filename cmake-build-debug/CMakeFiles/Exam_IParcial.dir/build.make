@@ -232,45 +232,6 @@ CMakeFiles/Exam_IParcial.dir/Control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Exam_IParcial.dir/Control.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\Control.cpp -o CMakeFiles\Exam_IParcial.dir\Control.cpp.s
 
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: CMakeFiles/Exam_IParcial.dir/flags.make
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../MenuMantenimiento.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Exam_IParcial.dir\MenuMantenimiento.cpp.obj -c C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuMantenimiento.cpp
-
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuMantenimiento.cpp > CMakeFiles\Exam_IParcial.dir\MenuMantenimiento.cpp.i
-
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuMantenimiento.cpp -o CMakeFiles\Exam_IParcial.dir\MenuMantenimiento.cpp.s
-
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: CMakeFiles/Exam_IParcial.dir/flags.make
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../MenuAdmin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Exam_IParcial.dir\MenuAdmin.cpp.obj -c C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuAdmin.cpp
-
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuAdmin.cpp > CMakeFiles\Exam_IParcial.dir\MenuAdmin.cpp.i
-
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuAdmin.cpp -o CMakeFiles\Exam_IParcial.dir\MenuAdmin.cpp.s
-
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: CMakeFiles/Exam_IParcial.dir/flags.make
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../MenuVentas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Exam_IParcial.dir\MenuVentas.cpp.obj -c C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuVentas.cpp
-
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuVentas.cpp > CMakeFiles\Exam_IParcial.dir\MenuVentas.cpp.i
-
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\MenuVentas.cpp -o CMakeFiles\Exam_IParcial.dir\MenuVentas.cpp.s
-
 # Object files for target Exam_IParcial
 Exam_IParcial_OBJECTS = \
 "CMakeFiles/Exam_IParcial.dir/main.cpp.obj" \
@@ -284,10 +245,7 @@ Exam_IParcial_OBJECTS = \
 "CMakeFiles/Exam_IParcial.dir/Matrix.cpp.obj" \
 "CMakeFiles/Exam_IParcial.dir/Asiento.cpp.obj" \
 "CMakeFiles/Exam_IParcial.dir/Fecha.cpp.obj" \
-"CMakeFiles/Exam_IParcial.dir/Control.cpp.obj" \
-"CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj" \
-"CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj" \
-"CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj"
+"CMakeFiles/Exam_IParcial.dir/Control.cpp.obj"
 
 # External object files for target Exam_IParcial
 Exam_IParcial_EXTERNAL_OBJECTS =
@@ -304,14 +262,11 @@ Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/Matrix.cpp.obj
 Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/Asiento.cpp.obj
 Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/Fecha.cpp.obj
 Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/Control.cpp.obj
-Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj
-Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj
-Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj
 Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/build.make
 Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/linklibs.rsp
 Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/objects1.rsp
 Exam_IParcial.exe: CMakeFiles/Exam_IParcial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Exam_IParcial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\norma\OneDrive\Escritorio\Exam_IParcial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Exam_IParcial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Exam_IParcial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

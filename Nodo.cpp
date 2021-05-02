@@ -40,11 +40,7 @@ Nodo<T>::~Nodo() {
 
 template<class T>
 bool Nodo<T>::Buscado(string x) {
-    if (x == getInfo()->getId()) {
-        return true;
-    } else{
-        return false;
-    }
+    return getInfo()->Buscado(x);
 }
 
 template<class T>
@@ -55,5 +51,10 @@ string Nodo<T>::datoOrdenar() {
 template<class T>
 void Nodo<T>::guardar(ofstream & c) {
     getInfo()->guardar(c);
+}
+
+template<class T>
+float Nodo<T>::recaudado() {
+    return getInfo()->recaudado();
 }
 

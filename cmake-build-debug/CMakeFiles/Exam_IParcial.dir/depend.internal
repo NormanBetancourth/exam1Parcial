@@ -16,9 +16,6 @@ CMakeFiles/Exam_IParcial.dir/Control.cpp.obj
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.h
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.h
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Pelicula.h
@@ -46,45 +43,6 @@ CMakeFiles/Exam_IParcial.dir/Matrix.cpp.obj
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Asiento.h
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.cpp
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Asiento.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Fecha.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Pelicula.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Sala.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Asiento.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Fecha.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Pelicula.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Sala.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Asiento.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Fecha.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Funcion.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Pelicula.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Sala.h
 CMakeFiles/Exam_IParcial.dir/Nodo.cpp.obj
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h
@@ -104,9 +62,6 @@ CMakeFiles/Exam_IParcial.dir/main.cpp.obj
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.cpp
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Lista.h
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Matrix.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuAdmin.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuMantenimiento.h
- C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/MenuVentas.h
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.cpp
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Nodo.h
  C:/Users/norma/OneDrive/Escritorio/Exam_IParcial/Pelicula.h

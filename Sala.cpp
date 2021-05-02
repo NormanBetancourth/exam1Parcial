@@ -66,3 +66,7 @@ string Sala::tostringCompleto() {
     }
     return s.str();
 }
+
+string Sala::tostringSilla() {
+    return M->tostring();
+}

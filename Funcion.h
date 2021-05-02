@@ -34,6 +34,11 @@ public:
     Funcion(Pelicula* p= nullptr, Sala* s= nullptr,Fecha* f= nullptr,int asientos=0 );
     ~Funcion();
     string toString();
+    string toStringCompleto();
+    bool Buscado(string x);
+    bool busquedaFecha(int, int,int);
+    string verAsientos();
+    float recaudado();
 };
 
 

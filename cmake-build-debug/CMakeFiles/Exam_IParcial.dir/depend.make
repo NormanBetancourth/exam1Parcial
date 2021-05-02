@@ -15,9 +15,6 @@ CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../Funcion.h
 CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../Lista.cpp
 CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../Lista.h
 CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../Matrix.h
-CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../MenuAdmin.h
-CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../MenuMantenimiento.h
-CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../MenuVentas.h
 CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../Nodo.cpp
 CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../Nodo.h
 CMakeFiles/Exam_IParcial.dir/Control.cpp.obj: ../Pelicula.h
@@ -46,45 +43,6 @@ CMakeFiles/Exam_IParcial.dir/Matrix.cpp.obj: ../Asiento.h
 CMakeFiles/Exam_IParcial.dir/Matrix.cpp.obj: ../Matrix.cpp
 CMakeFiles/Exam_IParcial.dir/Matrix.cpp.obj: ../Matrix.h
 
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Asiento.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Fecha.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Funcion.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Lista.cpp
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Lista.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Matrix.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../MenuAdmin.cpp
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../MenuAdmin.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Nodo.cpp
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Nodo.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Pelicula.h
-CMakeFiles/Exam_IParcial.dir/MenuAdmin.cpp.obj: ../Sala.h
-
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Asiento.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Fecha.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Funcion.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Lista.cpp
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Lista.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Matrix.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../MenuMantenimiento.cpp
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../MenuMantenimiento.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Nodo.cpp
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Nodo.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Pelicula.h
-CMakeFiles/Exam_IParcial.dir/MenuMantenimiento.cpp.obj: ../Sala.h
-
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Asiento.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Fecha.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Funcion.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Lista.cpp
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Lista.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Matrix.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../MenuVentas.cpp
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../MenuVentas.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Nodo.cpp
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Nodo.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Pelicula.h
-CMakeFiles/Exam_IParcial.dir/MenuVentas.cpp.obj: ../Sala.h
-
 CMakeFiles/Exam_IParcial.dir/Nodo.cpp.obj: ../Nodo.cpp
 CMakeFiles/Exam_IParcial.dir/Nodo.cpp.obj: ../Nodo.h
 
@@ -103,9 +61,6 @@ CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../Funcion.h
 CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../Lista.cpp
 CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../Lista.h
 CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../Matrix.h
-CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../MenuAdmin.h
-CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../MenuMantenimiento.h
-CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../MenuVentas.h
 CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../Nodo.cpp
 CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../Nodo.h
 CMakeFiles/Exam_IParcial.dir/main.cpp.obj: ../Pelicula.h

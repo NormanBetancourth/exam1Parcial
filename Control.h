@@ -4,29 +4,18 @@
 
 #ifndef EXAM_IPARCIAL_CONTROL_H
 #define EXAM_IPARCIAL_CONTROL_H
-#include "MenuMantenimiento.h"
-#include "MenuAdmin.h"
-#include "MenuVentas.h"
+#include "Lista.cpp"
+#include "Funcion.h"
 
 class Control {
 private:
     Lista<Funcion>* lista;
-    MenuMantenimiento* mMant;
-    MenuAdmin* mAdmin;
-    MenuVentas* mVentas;
+
 public:
     Control();
     ~Control();
 
-    //gets
-    MenuMantenimiento *getMMant() const;
-    MenuAdmin *getMAdmin() const;
-    MenuVentas *getMVentas() const;
 
-    //sets
-    void setMMant(MenuMantenimiento *mMant);
-    void setMAdmin(MenuAdmin *mAdmin);
-    void setMVentas(MenuVentas *mVentas);
 
     Lista<Funcion> *getLista() const;
     void setLista(Lista<Funcion> *lista);

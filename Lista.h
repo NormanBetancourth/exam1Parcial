@@ -19,6 +19,7 @@ public:
     void agregarIni(T*);
     void agregarFinal(T *);
     string toString();
+    string toStringCompleto();
     bool estaVacia();
     bool eliminarEspecifico(string);
     void ordenarLista();//ordena con respecto a un id
@@ -29,6 +30,8 @@ public:
     T* acceso(string);
     void guardar();
     static Lista<T>* Leer();
+    Lista<T>* buscarFecha(int,int,int);
+    float  sumatoria();
 
 };
 
